@@ -1,6 +1,6 @@
 ### KangOS ###
 
-![KangOS](https://raw.githubusercontent.com/Travisholt92/KangOS/master/Images/KangOS.jpg)
+![KangOS](https://raw.githubusercontent.com/Travisholt92/KangOS/master/Images/KangOS.png)
 <p align="center">
 
 </p>
