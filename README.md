@@ -7,12 +7,12 @@
 
 # Initialize Local Repository #
 ```bash
-repo init -u https://github.com/Corvus-ROM/android_manifest.git -b 10
+repo init -u https://github.com/KangOS-10/android_manifest.git -b 10
 ```
 
 # Or Initialize Shallow Clone #
 ```bash
-repo init --depth=1 -u https://github.com/Corvus-ROM/android_manifest.git -b 10
+repo init --depth=1 -u https://github.com/KangOS-10/android_manifest.git -b 10
 ```
 
 # Syncing Repository # 
@@ -34,16 +34,15 @@ make corvus
 # XDA Template
 [![XDA-Template](https://raw.githubusercontent.com/rashedsahaji/RandomStuff/master/XDADevelopers_button.png)](https://raw.githubusercontent.com/Corvus-ROM/android_manifest/10/xda)
 
-# Maintainership form
-[![Form](https://raw.githubusercontent.com/rashedsahaji/RandomStuff/master/Submission_button.png)](https://docs.google.com/forms/d/e/1FAIpQLSeOEzQXfNnPehPQRXxmt3L5FYc5neOhEE3m6ZW_xbIuuQ-dCg/viewform?usp=sf_link)
-
 # Telegram Support 
-[![Telegram](https://raw.githubusercontent.com/rashedsahaji/RandomStuff/master/Telegram_button.png)](https://t.me/corvussupport)
+[![Telegram](https://raw.githubusercontent.com/rashedsahaji/RandomStuff/master/Telegram_button.png)](https://t.me/joinchat/GnTSyx3Aj0_L-9qT7dtG3w)
 
  Credits:
  =======
 
  * [**DirtyUnicorns**](https://github.com/DirtyUnicorns)
+ * [**Corvus-ROM**](https://github.com/Corvus-ROM)
+ * [**AOKP**](https://github.com/AOKP) The Original Masters of Kang
 
 # Submitting Patches #
 
