@@ -1,9 +1,8 @@
-### Corvus ROM ###
+### KangOS ###
 
-![CorvusROM](https://raw.githubusercontent.com/Astile97/extras/master/corvus/cover.PNG)
+![KangOS](https://raw.githubusercontent.com/Travisholt92/KangOS/master/Images/KangOS.jpg)
 <p align="center">
 
-[![Sourceforge](https://img.shields.io/sourceforge/dm/corvus-os?color=1d91f0&label=RavenLair%20downloads&style=for-the-badge&labelColor=121217&logo=github)](https://corvus-rom.github.io/)
 </p>
 
 # Initialize Local Repository #
