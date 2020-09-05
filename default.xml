@@ -794,5 +794,6 @@
   <include name="snippets/crvs.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/aospa.xml" />
+  <include name="snippets/kang.xml" />
 
 </manifest>

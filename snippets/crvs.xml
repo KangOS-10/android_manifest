@@ -23,17 +23,6 @@
   <project path="libcore" name="android_libcore" remote="corvus" />
   <project path="platform_testing" name="android_platform_testing" remote="corvus" />
 
-  <!-- Build -->
-  <project path="build/make" name="android_build" remote="corvus" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
-    <linkfile src="target" dest="build/target"/>
-    <linkfile src="tools" dest="build/tools"/>
-  </project>
-
   <project path="build/blueprint" name="android_build_blueprint" remote="corvus" />
   <project path="build/soong" name="android_build_soong" remote="corvus" >
     <linkfile src="root.bp" dest="Android.bp" />
@@ -58,9 +47,7 @@
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="corvus" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="corvus" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="corvus" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="corvus" />
   <project path="frameworks/native" name="android_frameworks_native" remote="corvus" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="corvus" />
 
   <!-- Device -->
   <project path="device/du/sepolicy" name="device_du_sepolicy" remote="corvus" />
@@ -129,8 +116,6 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="corvus" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="corvus" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="corvus" />
-  <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="corvus" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="corvus" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="corvus" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="corvus" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="corvus" />
@@ -144,7 +129,6 @@
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="corvus" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="corvus" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="corvus" />
-  <project path="packages/apps/DU-Themes" name="android_packages_apps_DU-Themes" remote="corvus" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="corvus" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="corvus" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="corvus" />
@@ -159,7 +143,6 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="corvus" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="corvus" revision="10" />
   <project path="vendor/themes" name="android_vendor_themes" remote="corvus" />
-  <project path="vendor/du" name="android_vendor_du" remote="corvus" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="corvus" />
   <project path="vendor/pixelgapps" name="ritzzz/vendor_pixelgapps" remote="gitlab" revision="10" clone-depth="1" />
 
