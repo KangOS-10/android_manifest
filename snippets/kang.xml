@@ -12,6 +12,10 @@
         fetch="https://github.com/KangOS-10/"
         revision="refs/heads/10" />
 
+  <remote  name="device"
+           fetch="https://github.com/KangOS-Devices"
+           revision="10" />
+
   <!-- Build -->
   <project path="build/make" name="android_build" remote="kangos" >
     <copyfile src="core/root.mk" dest="Makefile" />

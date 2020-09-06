@@ -12,10 +12,6 @@
         fetch="https://github.com/Corvus-ROM/"
         revision="refs/heads/10" />
 
-  <remote  name="device"
-           fetch="https://github.com/CorvusRom-Devices"
-           revision="10" />
-
   <project path="art" name="android_art" remote="corvus" />
   <project path="bionic" name="android_bionic" remote="corvus" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="corvus" />
@@ -144,6 +140,5 @@
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="corvus" revision="10" />
   <project path="vendor/themes" name="android_vendor_themes" remote="corvus" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="corvus" />
-  <project path="vendor/pixelgapps" name="ritzzz/vendor_pixelgapps" remote="gitlab" revision="10" clone-depth="1" />
 
 </manifest>
