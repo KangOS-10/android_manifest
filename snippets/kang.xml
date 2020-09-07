@@ -35,4 +35,5 @@
   <project path="packages/apps/DU-Themes" name="android_packages_apps_DU-Themes" remote="kangos" />
   <project path="vendor/du" name="android_vendor_du" remote="kangos" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="kangos" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="kangos" />
 </manifest>
