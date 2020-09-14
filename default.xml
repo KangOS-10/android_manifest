@@ -36,18 +36,7 @@
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/linaro/dragonboard" name="device/linaro/dragonboard" groups="device,dragonboard,pdk" />
-  <project path="device/linaro/dragonboard-kernel" name="device/linaro/dragonboard-kernel" groups="device,dragonboard,pdk" clone-depth="1" />
-  <project path="device/linaro/hikey" name="device/linaro/hikey" groups="device,hikey,pdk" />
-  <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" groups="device,hikey,pdk" clone-depth="1" />
-  <project path="device/linaro/poplar" name="device/linaro/poplar" groups="device,poplar,pdk" />
-  <project path="device/linaro/poplar-kernel" name="device/linaro/poplar-kernel" groups="device,poplar,pdk" clone-depth="1" />
-  <project name="device/mediatek/wembley-sepolicy" path="device/mediatek/wembley-sepolicy" groups="device"/>
-  <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/ti/beagle_x15" name="device/ti/beagle-x15" groups="device,beagle_x15,pdk" />
-  <project path="device/ti/beagle_x15-kernel" name="device/ti/beagle-x15-kernel" groups="device,beagle_x15,pdk" clone-depth="1" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" groups="pdk" />
   <project path="external/adhd" name="platform/external/adhd" groups="pdk" />
