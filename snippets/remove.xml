@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="platform/test/mts" />
-  <remove-project name="platform/test/vti/alert" />
   <remove-project name="platform/tools/ndkports" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/bionic" />
